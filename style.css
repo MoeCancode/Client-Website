@@ -1,0 +1,33 @@
+.header {
+    background-color: cornsilk;
+    color: black;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+
+.navigation-list li{
+    list-style-type:none;
+    display: inline-block;
+    margin-left: 25px;
+    float: right;
+}
+
+.content {
+    background-color: white;
+    text-align: center;
+}
+
+#workers {
+    border: 20px;
+    border-width: 10px;
+}
+
+#Maintenance {
+    color: black;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: burlywood;
+}
