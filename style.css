@@ -1,15 +1,37 @@
 .header {
-    background-color: cornsilk;
+    background-color: palevioletred;
     color: black;
-    padding: 20px;
+    padding: 0px;
+    padding-left: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: fixed; 
+    top: 10px; 
+    width: 100%; 
 } 
+
+.header h1 {
+    font-size: 35px;
+    margin: 15px;
+}
+
+.header div {
+    margin-right: 100px;
+    float: right;
+}
 
 .navigation-list li{
     list-style-type:none;
     display: inline-block;
     margin-left: 25px;
-    float: right;
+    padding-bottom: 15px;
+    
+}    
+
+a {
+    color:gainsboro;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
 }
 
 .content {
@@ -19,7 +41,10 @@
 
 #workers {
     border: 20px;
-    border-width: 10px;
+    border-width: 20px;
+    border-style: double;
+    padding: 12px;
+    border-color: palevioletred;
 }
 
 #Maintenance {
@@ -28,6 +53,21 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.contact {
+    color: black;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+#smallbox {
+    margin-right: 450px;
+    margin-left: 450px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: palevioletred;
+}
+
 body {
-    background-color: burlywood;
+    background-color: gainsboro;
 }
