@@ -68,6 +68,12 @@ a {
     background-color: palevioletred;
 }
 
+.foot {
+    text-align: center;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 body {
     background-color: gainsboro;
 }
